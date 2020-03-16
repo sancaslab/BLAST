@@ -17,15 +17,15 @@ public class BlastMain {
 		// Añadimos funcionalidad a los elementos (a través del controlador)
 		frame.getComboSeq().addActionListener(controller);
 		frame.getButtonQuery().addActionListener(controller);
-
+		// Operaciones necesarias para la visualización del frame creado
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		frame.pack();
 		frame.setVisible(true);
 		// Añadimos un mensaje de información en la inicialización del frame (informando
 		// sobre el porcentaje por defecto)
 		ImageIcon icon = new ImageIcon("percentage.jpg");
-		JOptionPane.showMessageDialog(null, "Default Similarity Percentage: 0.8", "Message", JOptionPane.INFORMATION_MESSAGE,
-				icon);
+		JOptionPane.showMessageDialog(null, "Default Similarity Percentage: 0.8", "Message",
+				JOptionPane.INFORMATION_MESSAGE, icon);
 	}
 
 	public static void main(String[] args) {

@@ -26,7 +26,7 @@ public class BlastFrame extends JFrame {
 	/**
 	 * 
 	 */
-	
+
 	private static final long serialVersionUID = 1L;
 	private JRadioButton rbProt;
 	private JRadioButton rbNuc;
